@@ -4,7 +4,8 @@
   "description": "web application manager and dock",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "test": "electron ."
   },
   "repository": {
     "type": "git",
