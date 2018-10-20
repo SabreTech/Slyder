@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SabreTech/Slyder/issues"
   },
-  "homepage": "https://github.com/SabreTech/Slyder#readme"
+  "homepage": "https://github.com/SabreTech/Slyder#readme",
+  "dependencies": {
+    "electron": "^3.0.5"
+  }
 }
