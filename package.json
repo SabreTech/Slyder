@@ -1,0 +1,19 @@
+{
+  "name": "slyder",
+  "version": "1.0.0",
+  "description": "web application manager and dock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SabreTech/Slyder.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SabreTech/Slyder/issues"
+  },
+  "homepage": "https://github.com/SabreTech/Slyder#readme"
+}
