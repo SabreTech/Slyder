@@ -32,9 +32,8 @@
         "path": "/Applications"
         }
       ]
-    },
-  },
- 
+    }
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SabreTech/Slyder.git"
