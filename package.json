@@ -5,8 +5,45 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "electron ."
+    "test": "electron .",
+    "postinstall": "install-app-deps",
+    "dist": "npm run build && build --publish onTagOrDraft"
   },
+  "build": {
+  "appId": "org.sabertech.Slyder",
+  "category": "public.app-category.desktop",
+  "files": [
+    "dist/",
+    "node_modules/",
+    "static/",
+    "main.js",
+    "index.html",
+    "package.json"
+  ],
+  "dmg": {
+    "contents": [
+      {
+        "x": 130,
+        "y": 220
+      },
+      {
+        "x": 410,
+        "y": 220,
+        "type": "link",
+        "path": "/Applications"
+      }
+    ]
+  },
+  "win": {
+    "target": "nsis"
+  },
+  "linux": {
+    "target": [
+      "AppImage",
+      "deb"
+    ]
+  }
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SabreTech/Slyder.git"
@@ -16,5 +53,5 @@
   "bugs": {
     "url": "https://github.com/SabreTech/Slyder/issues"
   },
-  "homepage": "https://github.com/SabreTech/Slyder#readme"
+  "directories": {	    "output": "release"	}
 }
