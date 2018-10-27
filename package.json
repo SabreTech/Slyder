@@ -7,31 +7,32 @@
     "start": "electron .",
     "test": "electron .",
     "postinstall": "install-app-deps",
-    "dist": "npm run build && build --publish onTagOrDraft"
+    "dist": "npm run build && build --publish onTagOrDraft",
     "build": {
-  "appId": "org.sabertech.Slyder",
-  "category": "public.app-category.desktop",
-  "files": [
-    "dist/",
-    "node_modules/",
-    "static/",
-    "main.js",
-    "index.html",
-    "package.json"
-  ],
-  "dmg": {
-    "contents": [
-      {
+      "appId": "org.sabertech.Slyder",
+      "category": "public.app-category.desktop",
+      "files": [
+        "dist/",
+        "node_modules/",
+        "static/",
+        "main.js",
+        "index.html",
+        "package.json"
+      ],
+    "dmg": {
+      "contents": [
+        {
         "x": 130,
         "y": 220
-      },
-      {
+        },
+        {
         "x": 410,
         "y": 220,
         "type": "link",
         "path": "/Applications"
-      }
-    ]
+        }
+      ]
+    },
   },
  
   "repository": {
