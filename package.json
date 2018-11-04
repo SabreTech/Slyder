@@ -19,17 +19,17 @@
         "index.html",
         "package.json"
       ],
-    "dmg": {
-      "contents": [
+      "dmg": {
+        "contents": [
           {
-        "  x": 130,
-        "  y": 220
+            "  x": 130,
+            "  y": 220
           },
           {
-        "  x": 410,
-        "  y": 220,
-        "  type": "link",
-        "  path": "/Applications"
+            "  x": 410,
+            "  y": 220,
+            "  type": "link",
+            "  path": "/Applications"
           }
         ]
       }
@@ -44,5 +44,10 @@
   "bugs": {
     "url": "https://github.com/SabreTech/Slyder/issues"
   },
-  "directories": {	    "output": "release"	}
+  "directories": {
+    "output": "release"
+  },
+  "dependencies": {
+    "electron": "^3.0.7"
+  }
 }
